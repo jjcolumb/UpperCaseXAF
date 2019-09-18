@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="UpperCaseXAF">
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="18.2.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Product_DetailView">
+      <Items>
+        <PropertyEditor Id="Time" DisplayFormat="{0:t}" EditMask="t" EditMaskType="DateTime" />
+      </Items>
+    </DetailView>
+  </Views>
+</Application>
